@@ -40,12 +40,13 @@ url -X GET \
 
 Optional arguments:
 ```
-  -h, --help   show this help message and exit
-  --dir DIR    Directory containing the firmware binaries to serve. Default:
-               ~/firmware
-  --port PORT  Server port. Default: 8000.
-  --log LOG    Log level. Default ERROR
-  --cert CERT  SSL cert file to enable HTTPS. Default empty=No HTTPS
+  -h, --help     show this help message and exit
+  --dir DIR      Directory containing the firmware binaries to serve. Default:
+                 ~/firmware
+  --port PORT    Server port. Default: 80.
+  --log LOG      Log level. Default ERROR
+  --cert CERT    SSL cert file to enable HTTPS. Default empty=No HTTPS
+  --sameversion  Send same version again. Default: false
 ```
 
 ## Naming convention
